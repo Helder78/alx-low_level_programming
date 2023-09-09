@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-  a=0;
+ int a=0;
   do
     {
       printf("%d\n",a);
