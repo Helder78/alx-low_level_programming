@@ -1,11 +1,13 @@
 #include <stdio.h>
+
 /**
- *  main project goes here
+ *  main -  Prints the alphabetic in lower and upper case
  *
  *Return: Always (success)
  */
 int main(void)
 {
+  
   char c;
   
   for (c = 'a'; c <= 'z'; c++)
