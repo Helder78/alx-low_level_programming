@@ -1,14 +1,21 @@
 #include <stdio.h>
-
-int main ()
+/**
+ *main - Prints the alphabetic
+ *
+ * Return: Always (Success)
+ */
+int main(void)
 {
-//my code goes here
-  for (int x = 'A'; x < 'Z'; x++)
-    {
-      x = tolower(x);
+  char x;
+  
+  for (int x = 'a'; x < 'z'; x++)
+
       putchar(x);
-    }
+
+  putchar('\n');
+
   return (0);
+  
 }
 
   
