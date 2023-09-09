@@ -13,7 +13,7 @@ int main(void)
 		c = toupper(c);
 		putchar(c);
 	}
-	putchar('/n');
+	putchar("/n");
 	return (0);
 }
 
