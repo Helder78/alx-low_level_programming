@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <ctype.h>
+
 /**
  * main - prints lowercase in reverse case
  *
@@ -8,9 +8,8 @@
 int main(void)
 {
 	char c;
-	for (c = 'a'; c <= 'z'; c++)
+	for (c = 'z'; c >= 'a'; c--)
 	{
-		c = toupper(c);
 		putchar(c);
 	}
 	putchar("/n");
