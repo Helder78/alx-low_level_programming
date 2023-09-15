@@ -1,4 +1,4 @@
-nclude "main.h"
+include "main.h"
 
 /**
  * main - Checking fo upper case or otherwise
@@ -16,4 +16,3 @@ int _isupper(int c)
 		return (0);
 	}
 }
-
