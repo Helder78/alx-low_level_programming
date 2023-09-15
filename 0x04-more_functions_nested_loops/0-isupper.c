@@ -2,6 +2,7 @@
 
 /**
  * main - Checking fo upper case or otherwise
+ * checked done
  *
  * Return: 0 or 1
  */
@@ -11,8 +12,6 @@ int _isupper(int c)
 	{
 		return (1);
 	}
-	else
-	{
+
 		return (0);
-	}
 }
