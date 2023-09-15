@@ -4,10 +4,7 @@
  *
  *  Return : Always (Success);
  */
-int mul(int a, int b)
+int mul(int c, int d)
 {
-	int i;
-	result = a * b;
-
-	return (i);
+	return (c * d);
 }
